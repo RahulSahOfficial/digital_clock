@@ -257,4 +257,24 @@ body
 	{
 		margin: 0 0.5rem;
 	}
-}
+    .mainbox
+    {
+        width: 20rem;
+        padding: 2rem 1rem;
+    }
+    .digit
+    {
+        height: 6rem;
+    }
+    .datebox p
+    {
+        font-size: 1.5rem;
+    }
+    .themebox
+    {
+        display: none;
+    }
+    .quotesbox .quoteline
+    {
+        font-size: 1.1rem;
+    }
