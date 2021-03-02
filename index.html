@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>🕒 Digital Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="mainbox">
+        <div class="datebox">
+            <div class="daybox">
+                <div class="iconbox">
+                    <i class="far fa-calendar-alt"></i>
+                </div>
+                <p id="day">MON</p>
+            </div>
+            <div class="datebox">
+                <p id="date">12</p>
+                <p id="month">JUL</p>
+                <p id="year">1999</p>
+            </div>
+        </div>
+        <div class="timebox">
+            <div class="digit hour1">
+                <div class="seg1"></div>
+                <div class="seg2"></div>
+                <div class="seg3"></div>
+                <div class="seg4"></div>
+                <div class="seg5"></div>
+                <div class="seg6"></div>
+                <div class="seg7"></div>
+            </div>
+            <div class="digit hour2">
+                <div class="seg1"></div>
+                <div class="seg2"></div>
+                <div class="seg3"></div>
+                <div class="seg4"></div>
+                <div class="seg5"></div>
+                <div class="seg6"></div>
+                <div class="seg7"></div>
+            </div>
+            <div class="dots">
+                <div class="dot1 on eachdot"></div>
+                <div class="dot2 on eachdot"></div>
+            </div>
+            <div class="digit min1">
+                <div class="seg1"></div>
+                <div class="seg2"></div>
+                <div class="seg3"></div>
+                <div class="seg4"></div>
+                <div class="seg5"></div>
+                <div class="seg6"></div>
+                <div class="seg7"></div>
+            </div>
+            <div class="digit min2">
+                <div class="seg1"></div>
+                <div class="seg2"></div>
+                <div class="seg3"></div>
+                <div class="seg4"></div>
+                <div class="seg5"></div>
+                <div class="seg6"></div>
+                <div class="seg7"></div>
+            </div>
+        </div>
+        <div class="quotesbox">
+            <p class="quoteline">
+                <i class="fas fa-quote-left leftquote"></i> 
+                <span id="quote">Better three hours too soon than a minute too late.</span>
+                <i class="fas fa-quote-right rightquote"></i>
+            </p>
+            <p class="writerline">- <span id="writer">William Shakespeare.</span></p>
+        </div>
+    </div>
+    <div class="themebox">
+        <div class="eachcolor" style="background: #ff073a;"></div>
+        <div class="eachcolor" style="background: #c0e218;"></div>
+        <div class="eachcolor" style="background: #80ffdb;"></div>
+        <div class="eachcolor" style="background: #f37121;"></div>
+        <div class="eachcolor" style="background: #54e346;"></div>
+        <div class="eachcolor" style="background: #0033FF;"></div>
+    </div>
+    <div class="links">
+        <ul>
+            <li><a target="_blank" href="https://github.com/RahulSahOfficial"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/developer_sah/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a target="_blank" href="https://twitter.com/developer_sah"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer">
+        <p>© Copyright <span id="year">2021</span> &nbsp;&nbsp;|&nbsp;&nbsp; Created By Rahul Sah 🇮🇳</p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
